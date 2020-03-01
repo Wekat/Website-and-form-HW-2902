@@ -217,9 +217,32 @@ body {
     font-family: 'Nunito Sans';
 }
 
+.about_us__heading--p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #2557AB;
+    margin-top: 100px;
+    margin-bottom: 0;
+}
+
+.about_us_page__heading--h {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 52px;
+    color: #13253A;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
 .about_us__text {
+    font-family: 'Nunito Sans';
     display: flex;
     justify-content: center;
+    margin-top: 0;
+    margin-bottom: 60px;
 }
 
 .about_us__text_left {
@@ -227,8 +250,35 @@ body {
     margin-right: 30px;
 }
 
+.about_us__text_left--italic {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #13253A;
+    mix-blend-mode: normal;
+    opacity: 0.9;
+}
+
+.about_us__text_left--regular {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #13253A;
+    mix-blend-mode: normal;
+    opacity: 0.9;
+}
+
 .about_us__text_right {
-    width: 570px;
+    width: 550px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 27px;
+    color: #13253A;
+    mix-blend-mode: normal;
+    opacity: 0.9;
 }
 
 .logo_banner {
@@ -236,6 +286,8 @@ body {
     max-width: 1440px;
     display: flex;
     justify-content: center;
+    margin-top: 0;
+    margin-bottom: 100px;
 }
 
 .logo_banner__items {
