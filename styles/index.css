@@ -1,0 +1,27 @@
+body {
+
+}
+
+
+
+
+
+.logo_banner__items_1 {
+    background-image: url(../images/logo-1-hello-fresh.png);
+}
+
+.logo_banner__items_2 {
+    background-image: url(../images/logo-2-trivago.png);
+}
+
+.logo_banner__items_3 {
+    background-image: url(../images/logo-3-los-angelese-times.png);
+}
+
+.logo_banner__items_4 {
+    background-image: url(../images/logo-4-oracle.png);
+}
+
+.logo_banner__items_5 {
+    background-image: url(../images/logo-5-target.png);
+}
