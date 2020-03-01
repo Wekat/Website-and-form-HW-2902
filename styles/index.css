@@ -297,23 +297,87 @@ body {
     align-items: center;
 }
 
-/*.logo_banner__items_1 {
-    height: 66px;
-    background-image: url(../images/logo-1-hello-fresh.png);
+.relax_page {
+    font-family: 'Nunito Sans';
 }
 
-.logo_banner__items_2 {
-    background-image: url(../images/logo-2-trivago.png);
+.relax_page_top_wrap {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
 }
 
-.logo_banner__items_3 {
-    background-image: url(../images/logo-3-los-angelese-times.png);
+.relax_page_top_wrap_container {
+    padding-top: 100px;
+    border-top: 1px solid #DCE2E6;;
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
 }
 
-.logo_banner__items_4 {
-    background-image: url(../images/logo-4-oracle.png);
+.relax_page_top_wrap__text {
+    width: 500px;
 }
 
-.logo_banner__items_5 {
-    background-image: url(../images/logo-5-target.png);
-}*/
+.relax_page_top_wrap__text {
+    width: 500px;
+    height: 450px;
+    color: #13253A;
+}
+
+.relax_page_top_wrap__text--h {
+    width: 100%;
+    max-width: 370px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 52px;
+}
+
+.relax_page_top_wrap__text--p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    mix-blend-mode: normal;
+    opacity: 0.9;
+}
+
+.tick_icon {
+    margin-right: 15px;
+}
+
+.relax_page_top_wrap__text--ticktext {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 27px;
+    color: #13253A;
+}
+
+.relax_page_top_wrap__img {
+    width: 600px;
+    height: 450px;
+    background-image: url(../images/image-relaxing.png);
+}
+
+.relax_page_bottom_wrap {
+    max-width: 1440px;
+    width: 100%;
+    height: 434px;
+    background-color: #FF7F57;
+    text-align: center;
+}
+
+.relax_page_bottom_wrap__small_h {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-top: 0;
+    padding-top: 100px;
+}
