@@ -6,7 +6,8 @@ body {
 .landing_page {
     max-width: 1440px;
     width: 100%;
-    height: 100vh;
+    max-height: 810px;
+    height: 100%;
     background-color: #e9e6e6;
     border-bottom: 1px solid #DCE2E6;
 }
@@ -57,7 +58,45 @@ body {
     color: #13253A;
 }
 
+.landing_page_content {
+    max-width: 1440px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 170px;
+    box-sizing: border-box;
+}
 
+.buttom_box {
+    width: 470px;
+    height: 261px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.landing_button {
+    background: #FF7F57;
+    border-radius: 3px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 19px 42px 18px;
+    border: none;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 10px rgba(0,0,0,0.19);
+    }
+
+.landing_pic {
+    background-image: url(../images/landing_pic.svg);
+    background-repeat: no-repeat;
+    width: 568px;
+    height: 412px;
+}
 
 
 
