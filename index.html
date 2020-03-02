@@ -135,15 +135,25 @@
     </section>
     <section class="contact_page" id="contact">
         <h1 class="contact_page_heading">Contact Us</h1>
-        <form action="">
-            <label class="form_label" for="name">Full Name</label>
-            <input class="form_input" type="text" id="name" placeholder="Ram Kaji">
-            <label class="form_label" for="email">Your Email Address</label>
-            <input class="form_input" type="email" id="email" placeholder="hello@lastdoor.store">
-            <label class="form_label" for="message">Your Message</label>
-            <textarea class="form_input" name="" id="message" cols="30" rows="10" placeholder="Type your message here..."></textarea>
-            <button type="submit">Submit Your Message</button>
-        </form>
+        <div class="form_container">
+            <form class="form" action="">
+                <div class="form_section name">
+                    <label class="form__label" for="name">Full Name</label><br>
+                    <input class="form__input" type="text" id="name" placeholder="Ram Kaji">
+                </div>
+                <div class="form_section email">
+                    <label class="form__label form__label_email" for="email">Your Email Address</label><br>
+                    <input class="form__input" type="email" id="email" placeholder="hello@lastdoor.store">
+                </div>
+                <div class="form_section message">
+                    <label class="form__label form__label_message" for="message">Your Message</label><br>
+                    <textarea class="form__input" name="" id="message" cols="30" rows="7" placeholder="Type your message here..."></textarea>
+                </div>
+                <div class="form_section button_section">
+                    <button class="form__button" type="submit">Submit Your Message</button>
+                </div>
+            </form>
+        </div>
     </section>
     <footer class="footer">
         <p>Copyright © 2018 LastDoor.Store</p>
